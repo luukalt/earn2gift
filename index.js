@@ -49,7 +49,7 @@ function extractUserDetails(token) {
 function reinitializeGoogleSignIn() {
     // Clear existing content
     const signInDiv = document.getElementById('g_id_signin');
-    signInDiv.innerHTML = '';
+    signInDiv.style.display = 'block';
 
     // Rerender the Google Sign-In Button
     google.accounts.id.renderButton(
