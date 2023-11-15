@@ -5,11 +5,17 @@ function handleCredentialResponse(response) {
     // Extract user details from the ID token (implement extractUserDetails)
     const userDetails = extractUserDetails(response.credential);
 
-    // Update UI with user details
-    document.getElementById('user_name').innerText = userDetails.firstName + ' ' + userDetails.lastName;
-    document.getElementById('user_email').innerText = userDetails.email;
-    document.getElementById('user_info').style.display = 'block';
+     // Update the UI with the user's profile picture and email
+    const userImage = document.getElementById('user_image');
+    const userEmail = document.getElementById('user_email');
 
+    userImage.src = userDetails.picture; // Set a default picture URL if needed
+    userEmail.innerText = userDetails.email;
+
+    // Show user info and hide the sign-in button
+    document.getElementById('user_info').style.display = 'block';
+    document.getElementById('g_id_signin').style.display = 'none';
+    
     // Hide the Google sign-in button
     document.getElementById('g_id_signin').style.display = 'none';
 
@@ -30,18 +36,33 @@ function decodeJwtToken(token) {
     return JSON.parse(jsonPayload);
 }
 
-// Function to extract first name, last name, and email
+// // Function to extract first name, last name, and email
+// function extractUserDetails(token) {
+//     const userData = decodeJwtToken(token);
+//     const fullName = userData.name || ''; // Full name
+//     const email = userData.email || '';
+
+//     // Splitting the full name into first and last names
+//     const names = fullName.split(' ');
+//     const firstName = names[0] || '';
+//     const lastName = names.length > 1 ? names[names.length - 1] : '';
+
+//     return { firstName, lastName, email };
+// }
+
 function extractUserDetails(token) {
     const userData = decodeJwtToken(token);
+    
     const fullName = userData.name || ''; // Full name
     const email = userData.email || '';
+    const picture = userData.picture || ''; // User's profile picture URL
 
     // Splitting the full name into first and last names
     const names = fullName.split(' ');
     const firstName = names[0] || '';
     const lastName = names.length > 1 ? names[names.length - 1] : '';
 
-    return { firstName, lastName, email };
+    return { firstName, lastName, email, picture };
 }
 
 
