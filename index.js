@@ -72,7 +72,7 @@ function signOutUser() {
 
 window.onload = function () {
     google.accounts.id.initialize({
-        client_id: "80b20cr4ud2h6kt59pdkbtc63bvhus03.apps.googleusercontent.com",
+        client_id: "1050074680030-80b20cr4ud2h6kt59pdkbtc63bvhus03.apps.googleusercontent.com",
         callback: handleCredentialResponse,
         auto_select: false
     });
