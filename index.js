@@ -9,6 +9,8 @@ function handleCredentialResponse(response) {
     console.log('Last Name:', userDetails.lastName);
     console.log('Email:', userDetails.email);
 
+    document.getElementById('g_id_signin').innerText = userDetails.firstName + " " + userDetails.lastName;
+
     // Optionally update these details in your HTML
     // Ensure your HTML has elements with these IDs
     // document.getElementById('firstName').innerText = userDetails.firstName;
