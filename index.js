@@ -8,14 +8,6 @@ function handleCredentialResponse(response) {
     console.log('First Name:', userDetails.firstName);
     console.log('Last Name:', userDetails.lastName);
     console.log('Email:', userDetails.email);
-
-    // Hide the Google sign-in button
-
-    // Optionally update these details in your HTML
-    // Ensure your HTML has elements with these IDs
-    // document.getElementById('firstName').innerText = userDetails.firstName;
-    // document.getElementById('lastName').innerText = userDetails.lastName;
-    // document.getElementById('email').innerText = userDetails.email;
 }
 
 function decodeJwtToken(token) {
@@ -47,7 +39,6 @@ window.onload = function () {
     google.accounts.id.initialize({
         client_id: "1050074680030-80b20cr4ud2h6kt59pdkbtc63bvhus03.apps.googleusercontent.com",
         callback: handleCredentialResponse,
-        prompt_parent_id: 'g_id_signin',
         auto_select: false, // This ensures the account chooser is always shown
     });
 
