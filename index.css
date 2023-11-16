@@ -76,15 +76,14 @@ h1 {
 
 .user-info-container {
     display: flex;
+    justify-content: space-between;
     align-items: center; /* Align items vertically in the center */
-    justify-content: space-between; /* Space out items */
     /* ... other styles ... */
 }
 
 .user-profile {
     display: flex;
     align-items: center;
-    /* Remove justify-content: center; if previously set */
 }
 
 .user-image {
