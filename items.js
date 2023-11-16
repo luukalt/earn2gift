@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Elegant Watch', cost: 100, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
         { name: 'Stylish Sunglasses', cost: 200, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
         { name: 'Modern Backpack', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack2', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack3', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack4', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        
         // Add more items as needed
     ];
     var storeContainer = document.getElementById('store');
