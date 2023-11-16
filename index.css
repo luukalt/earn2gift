@@ -57,3 +57,21 @@
 .sign-out-button:hover {
     background-color: #0056b3;
 }
+
+.item {
+    width: 200px;  /* Width of the square */
+    height: 200px; /* Height of the square */
+    border: 1px solid #000; /* Optional: adds a border */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; /* Optional: adds some space around the item */
+}
+
+.item-image {
+    width: 100%;  /* Make the image take the full width of the container */
+    height: 60%;  /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+}
