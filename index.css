@@ -1,5 +1,5 @@
 body {
-    background-color: #4A90E2; /* A chic deep sky blue */
+    background-color: #1c5da8; /* A chic deep sky blue */
 }
 
 .user-info-container {
@@ -62,19 +62,3 @@ body {
     background-color: #0056b3;
 }
 
-.item {
-    width: 30%;  /* Adjust the percentage as needed */
-    padding-top: 30%; /* same as width to maintain square shape */
-    position: relative;
-    /* ... other styles ... */
-}
-
-.item-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 60%; /* Adjust based on how much space you want for the image */
-    background-size: cover;
-    background-position: center;
-}
