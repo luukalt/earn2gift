@@ -152,6 +152,6 @@ h1 {
 
 @media screen and (max-width: 480px) {
     .store-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
