@@ -95,19 +95,9 @@ h1 {
     border: 2px solid #007bff;
 }
 
-.user-details {
-    text-align: left;
-}
-
 .user-email {
     font-size: 1em;
     color: white;
-    margin: 0;
-}
-
-.user-name {
-    font-size: 1.2em;
-    color: #007bff;
     margin: 0;
 }
 
