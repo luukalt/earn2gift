@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             itemDiv.className = 'item';
             itemDiv.innerHTML = '<div class="item-image" style="background-image: url(' + item.imageUrl + ');"></div>' +
                                 '<div class="item-name">' + item.name + '</div>' +
-                                '<div class="item-cost">Punten: ' + item.cost + '</div>';
+                                '<div class="item-cost">Coins: ' + item.cost + '</div>';
             storeContainer.appendChild(itemDiv);
             itemElements.push(itemDiv);
         });
