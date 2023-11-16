@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var userPoints = 500; // Example user points
     var items = [
-        { name: 'Fluqx speaker', cost: 100, imageUrl: 'https://drive.google.com/file/d/1VX6OX-06sdb3YDRzPSRplNlu1BQcJJXy/view?usp=sharing', redeemed: false },
+        { name: 'Fluqx speaker', cost: 100, imageUrl: 'https://drive.google.com/uc?id=1VX6OX-06sdb3YDRzPSRplNlu1BQcJJXy', redeemed: false },
         { name: 'Stylish Sunglasses', cost: 200, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
         { name: 'Modern Backpack', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
         { name: 'Modern Backpack2', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
