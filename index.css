@@ -74,25 +74,17 @@ h1 {
     color: gold; /* Change the icon color as needed */
 }
 
-/* User info container styles */
 .user-info-container {
-    position: fixed;
-    top: 0;
-    right: 0; /* Align to the right */
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    border-radius: 0 0 5px 5px;
-    text-align: center;
-    /* Remove transform property */
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space out items */
+    /* ... other styles ... */
 }
-
 
 .user-profile {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* Remove justify-content: center; if previously set */
 }
 
 .user-image {
