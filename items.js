@@ -4,9 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Fluqx speaker', cost: 100, imageUrl: 'https://drive.google.com/uc?id=1VX6OX-06sdb3YDRzPSRplNlu1BQcJJXy', redeemed: false },
         { name: 'Stylish Sunglasses', cost: 200, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
         { name: 'Modern Backpack', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
-        { name: 'Modern Backpack2', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
-        { name: 'Modern Backpack3', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
-        { name: 'Modern Backpack4', cost: 300, imageUrl: 'https://via.placeholder.com/150', redeemed: false }, 
+        { name: 'Modern Backpack2', cost: 400, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack3', cost: 500, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack4', cost: 600, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack5', cost: 700, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack6', cost: 800, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
+        { name: 'Modern Backpack7', cost: 900, imageUrl: 'https://via.placeholder.com/150', redeemed: false },
         
         // Add more items as needed
     ];
