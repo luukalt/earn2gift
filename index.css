@@ -1,9 +1,59 @@
-/* .data{
-    display: none;
-} */
+.user-info-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+}
 
-/* .g-signin2{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-} */
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #007bff;
+}
+
+.user-details {
+    text-align: left;
+}
+
+.user-email {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.user-name {
+    font-size: 1.2em;
+    color: #007bff;
+    margin: 0;
+}
+
+.sign-out-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+.sign-out-button:hover {
+    background-color: #0056b3;
+}
