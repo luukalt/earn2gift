@@ -59,19 +59,18 @@
 }
 
 .item {
-    width: 200px;  /* Width of the square */
-    height: 200px; /* Height of the square */
-    border: 1px solid #000; /* Optional: adds a border */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px; /* Optional: adds some space around the item */
+    width: 30%;  /* Adjust the percentage as needed */
+    padding-top: 30%; /* same as width to maintain square shape */
+    position: relative;
+    /* ... other styles ... */
 }
 
 .item-image {
-    width: 100%;  /* Make the image take the full width of the container */
-    height: 60%;  /* Adjust as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60%; /* Adjust based on how much space you want for the image */
     background-size: cover;
     background-position: center;
 }
